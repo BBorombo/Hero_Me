@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.borombo.herome.fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/appbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="#253748"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/topbannerbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/heroes"
+            android:src="@drawable/heroes"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:text="CAME BY ACCIDENT"
+            android:id="@+id/accident_button"
+            android:textColor="#FAC740"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/lightning"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/hearo_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="55dp" />
+
+        <Button
+            android:text="Genetic Mutation"
+            android:id="@+id/genetic_button"
+            android:textColor="#FAC740"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/hearo_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="55dp" />
+
+        <Button
+            android:text="Born with them"
+            android:id="@+id/born_button"
+            android:textColor="#FAC740"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/hearo_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="55dp" />
+
+        <Button
+            android:text="Choose Power"
+            android:id="@+id/chosse_button"
+            android:textColor="#10161D"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="#FAC740"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="55dp" />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
